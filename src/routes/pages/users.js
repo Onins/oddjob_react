@@ -43,12 +43,10 @@ class Home extends Component {
         <div className="container">
           <div className="container-wrapper">
             <div className="row">
-              <div className="col-md-12">
-                <div className="page-header">
-                  <h2><strong>Registered Emails</strong></h2>
-                </div>
+              <div className="page-header">
+                <h2><strong>Registered Emails</strong></h2>
               </div>
-              <div className="col-md-12">
+              <div>
                 {usersComponent}
               </div>
             </div>
